@@ -1,0 +1,167 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(-45deg, #89c0f0, #2e73b0, #19206e, #010530);
+    background-size: 400% 400%;
+    animation: gradient 6s ease infinite;
+}
+
+.lateral-esquerda {
+    width: 335px;
+    background-color: #f1f1f167;
+    padding: 20px;
+    top: 0;
+    left: 0;
+    border-radius: 15px;
+    margin: 15px;
+}
+
+.lateral-esquerda header h1 {
+    font-size: 24px;
+    margin-bottom: 5px;
+    color: white;
+}
+
+.lateral-esquerda header h2 {
+    font-size: 18px;
+    color: white;
+    margin-top: 5px;
+}
+
+.lateral-esquerda section h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.lateral-esquerda section p {
+    font-size: 16px;
+    color: #5d6e90;
+    margin-bottom: 5px;
+    color: white;
+}
+
+.lateral-esquerda section ul {
+    margin-top: 5px;
+    margin-bottom: 10px;
+    list-style: none;
+    padding: 0;
+    color: white;
+}
+
+.lateral-esquerda section ul li {
+    font-size: 16px;
+    color: white;
+    margin-bottom: 5px;
+}
+
+.main-content {
+    display: flex;
+    justify-content: center;
+    margin-left: 375px;
+    align-items: center;
+    margin-right: 375px;
+    margin-top: -790px;
+    flex-direction: column;
+}
+
+.bem-vindo {
+    width: 590px;
+    height: 455px;
+    padding: 20px;
+    border-radius: 10px;
+    border-color: white;
+    border: outset;
+}
+
+.bem-vindo h2,p{
+    color: white;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.experiencia-profissional {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.article-container {
+    width: 590px;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #F1F1F1;
+}
+
+.article-container:hover {
+    transform: scale(1.2);
+    transition: transform 0.3s ease;
+    background: radial-gradient(600px at 1860px 776px, rgba(188, 204, 206, 0.15), transparent 80%);
+    background-color: rgb(255, 255, 255);
+    border-color: black;
+    border: solid;
+}
+
+.article-container:hover h2 {
+    color: #056f7a;
+}
+
+.article-container h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.article-container h3 {
+    font-size: 20px;
+    color: #5d6e90;
+    margin-bottom: 10px;
+}
+
+.article-container p {
+    font-size: 16px;
+    color: #5d6e90;
+    margin-bottom: 5px;
+}
+
+.article-container p:last-child {
+    margin-bottom: 0;
+}
+
+.article-container ul {
+    margin-top: 5px;
+    margin-bottom: 10px;
+    list-style: none;
+    padding: 0;
+}
+
+.article-container ul li {
+    font-size: 16px;
+    color: #5d6e90;
+    margin-bottom: 5px;
+}
+
+.article-container a {
+    color: #056f7a;
+    text-decoration: none;
+}
+
+.article-container a:hover {
+    text-decoration: underline;
+}
+
+footer{
+    text-align: center;
+}
